@@ -3,7 +3,7 @@ import React from 'react';
 import { screen } from '@testing-library/react';
 
 import { NotFound } from '../pages';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 describe('testando o notFound.js', () => {
   test(`Teste se a página contém um heading h2

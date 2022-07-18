@@ -5,7 +5,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 import pokemons from '../data';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 const pokemonName = 'pokemon-name';
 describe('testando o pokedex.js', () => {

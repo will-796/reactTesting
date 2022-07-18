@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 import React from 'react';
 import App from '../App';
 
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 describe('testando o pokemonDetails.js', () => {
   test(`Teste se as informações detalhadas do

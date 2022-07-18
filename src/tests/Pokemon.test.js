@@ -5,7 +5,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { Pokemon } from '../components';
 import pokemons from '../data';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 describe('testando o pokemon.js', () => {
   test('Teste se é renderizado um card com as informações de determinado pokémon', () => {

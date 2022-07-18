@@ -4,7 +4,7 @@ import { screen } from '@testing-library/react';
 
 import userEvent from '@testing-library/user-event';
 import App from '../App';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 describe('testando o favorite.js', () => {
   test(`Teste se é exibida na tela a mensagem No favorite pokemon found,
