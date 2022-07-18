@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 
 import {
   readFavoritePokemonIds,
-  updateFavoritePokemons,
+  updateFavoritePokemons
 } from './services/pokedexService';
+
+// primeiro commmit
 
 import pokemons from './data';
 import Routes from './routes';
