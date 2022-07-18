@@ -6,8 +6,6 @@ import {
   updateFavoritePokemons
 } from './services/pokedexService';
 
-// primeiro commmit
-
 import pokemons from './data';
 import Routes from './routes';
 
